@@ -1,0 +1,11 @@
+﻿  main.cpp
+  audioIO.cpp
+C:\Users\keyzi\source\repos\AudioProcessingUnit\AudioProcessingUnit\audioIO.cpp(18,36): warning C4244: 'initializing': conversion from 'sf_count_t' to 'unsigned int', possible loss of data
+  Generating Code...
+audioIO.obj : error LNK2019: unresolved external symbol _sf_open referenced in function "double * __cdecl audioread(int &,int &,int &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?audioread@@YAPANAAH00V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+audioIO.obj : error LNK2019: unresolved external symbol _sf_readf_double referenced in function "double * __cdecl audioread(int &,int &,int &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?audioread@@YAPANAAH00V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+audioIO.obj : error LNK2019: unresolved external symbol _sf_writef_double referenced in function "void __cdecl audiowrite(double *,int,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?audiowrite@@YAXPANHHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+audioIO.obj : error LNK2019: unresolved external symbol _sf_close referenced in function "double * __cdecl audioread(int &,int &,int &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?audioread@@YAPANAAH00V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+audioIO.obj : error LNK2019: unresolved external symbol _sf_write_sync referenced in function "void __cdecl audiowrite(double *,int,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?audiowrite@@YAXPANHHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+C:\Program Files\Mega-Nerd\libsndfile\lib\libsndfile-1.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\keyzi\source\repos\AudioProcessingUnit\Debug\AudioProcessingUnit.exe : fatal error LNK1120: 5 unresolved externals

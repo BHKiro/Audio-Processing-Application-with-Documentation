@@ -1,0 +1,10 @@
+﻿  ms_getenv.cpp
+  main.cpp
+C:\Users\keyzi\source\repos\AudioProcessingUnit\AudioProcessingUnit\main.cpp(40,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\keyzi\source\repos\AudioProcessingUnit\AudioProcessingUnit\main.cpp(42,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  audioIO.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 120 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  AudioProcessingUnit.vcxproj -> C:\Users\keyzi\source\repos\AudioProcessingUnit\x64\Release\AudioProcessingUnit.exe

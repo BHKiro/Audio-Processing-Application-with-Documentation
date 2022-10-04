@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\keyzi\source\repos\AudioProcessingUnit\AudioProcessingUnit\main.cpp(89,27): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  AudioProcessingUnit.vcxproj -> C:\Users\keyzi\source\repos\AudioProcessingUnit\x64\Debug\AudioProcessingUnit.exe
